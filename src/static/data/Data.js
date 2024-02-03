@@ -3,6 +3,11 @@ const users = {
     name: 'Davide Stefanini',
     image: '/images/davideStefanini.png',
     file: '/vcf/davideStefanini.vcf'
+  },
+  'ajd48s7dj5': {
+    name: 'Pietro Quadrini',
+    image: '/images/pietroQuadrini.png',
+    file: '/vcf/davideStefanini.vcf'
   }
 }
 
