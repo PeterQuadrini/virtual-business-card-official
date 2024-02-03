@@ -8,7 +8,7 @@ function App() {
   let { id } = useParams();
   const currentUser = users.hasOwnProperty(id) ? users[id] : null;
   let backgroundImage = currentUser != null ? process.env.PUBLIC_URL + '/' + currentUser.image : ''
-  let vcfFile = currentUser != null ? currentUser.file : ''
+  let vcfFile = currentUser != null ? process.env.PUBLIC_URL + '/' + currentUser.file : ''
   let name = currentUser != null ? currentUser.name : ''
   useEffect(() => {
     if (currentUser == null) {
