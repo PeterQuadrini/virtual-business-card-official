@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//peterquadrini.github.io/virtual-business-card-official/static/css/main.0e2d3060.css",
+    "main.js": "//peterquadrini.github.io/virtual-business-card-official/static/js/main.3eae2bab.js",
+    "static/js/592.630094b7.chunk.js": "//peterquadrini.github.io/virtual-business-card-official/static/js/592.630094b7.chunk.js",
+    "index.html": "//peterquadrini.github.io/virtual-business-card-official/index.html",
+    "main.0e2d3060.css.map": "//peterquadrini.github.io/virtual-business-card-official/static/css/main.0e2d3060.css.map",
+    "main.3eae2bab.js.map": "//peterquadrini.github.io/virtual-business-card-official/static/js/main.3eae2bab.js.map",
+    "592.630094b7.chunk.js.map": "//peterquadrini.github.io/virtual-business-card-official/static/js/592.630094b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2d3060.css",
+    "static/js/main.3eae2bab.js"
+  ]
+}
