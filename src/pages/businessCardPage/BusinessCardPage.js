@@ -7,7 +7,7 @@ function App() {
   const navigate = useNavigate();
   let { id } = useParams();
   const currentUser = users.hasOwnProperty(id) ? users[id] : null;
-  let backgroundImage = currentUser != null ? currentUser.image : ''
+  let backgroundImage = currentUser != null ? process.env.PUBLIC_URL + '/' + currentUser.image : ''
   let vcfFile = currentUser != null ? currentUser.file : ''
   let name = currentUser != null ? currentUser.name : ''
   useEffect(() => {
