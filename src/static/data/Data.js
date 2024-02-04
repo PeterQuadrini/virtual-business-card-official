@@ -7,7 +7,7 @@ const users = {
   'ajd48s7dj5': {
     name: 'Pietro Quadrini',
     image: '/images/pietroQuadrini.png',
-    file: '/vcf/davideStefanini.vcf'
+    file: '/vcf/pietroQuadrini.vcf'
   }
 }
 
