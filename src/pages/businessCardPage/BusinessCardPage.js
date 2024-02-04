@@ -2,13 +2,14 @@ import { useParams, useNavigate } from 'react-router-dom';
 import users from './../../static/data/Data.js'
 import { useEffect } from 'react';
 import './BusinessCardPage.css'
+import globalVariables from '../../variables/Variables.js';
 
 function App() {
   const navigate = useNavigate();
   let { id } = useParams();
   const currentUser = users.hasOwnProperty(id) ? users[id] : null;
-  let backgroundImage = currentUser != null ? process.env.PUBLIC_URL + '/' + currentUser.image : ''
-  let vcfFile = currentUser != null ? process.env.PUBLIC_URL + '/' + currentUser.file : ''
+  let backgroundImage = currentUser != null ? globalVariables.customUrl + '/' + currentUser.image : ''
+  let vcfFile = currentUser != null ? globalVariables.customUrl + '/' + currentUser.file : ''
   let name = currentUser != null ? currentUser.name : ''
   useEffect(() => {
     if (currentUser == null) {
